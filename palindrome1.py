@@ -1,12 +1,12 @@
 s = "potop"
-def isPalindrome(s): 
+def is_palindrome(s): 
     if len(s) <= 1: 
         return True 
     
     if s[0] != s[-1]: 
         return False 
        
-    return isPalindrome(s[1:-1]) 
-print(isPalindrome(s))
+    return is_palindrome(s[1:-1]) 
+print(is_palindrome(s))
 
-isPalindrome(s)
+is_palindrome(s)
